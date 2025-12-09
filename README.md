@@ -32,10 +32,11 @@ bundle exec jekyll serve
 - `limitations.md` — What we know and don't know
 - `collaborate.md` — How to engage
 
-## Related work
+## Attribution
 
-- [Semantic Climate Phase Space](https://github.com/m3data/semantic-climate-phase-space) — Semantic coupling analysis extending Morgoulis (2025)
-- [Earthian Ecological Coherence Protocol](https://github.com/m3data/earthian-ecological-coherence-protocol) — Protocol frame for consent-aware relational technology
+This work is based on the Semantic Climate framework and EarthianBioSense model (forthcoming). The semantic analysis components draws on the research of Daria Morgoulis and here implementation of [4D Semantic Coupling](https://github.com/daryamorgoulis/4d-semantic-coupling).
+
+Research papers and additional code repositories will be linked here as they become available.
 
 ## License
 
@@ -50,6 +51,7 @@ Core requirements:
 ## Author
 
 **Mathew Mark Mytka**
+Independent researcher, data ethicist, and moral imagineer.
 
 - [moralimagineer.com](https://moralimagineer.com)
 - [linkedin.com/in/mathewmytka](https://linkedin.com/in/mathewmytka)
