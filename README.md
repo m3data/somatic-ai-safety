@@ -1,6 +1,6 @@
 # Somatic AI Safety
 
-**Instrumenting the human side of human-AI coupling**
+**Instrumenting the relational dynamics of human-AI coupling**
 
 A static site presenting the case for somatic approaches to AI safety — measuring what happens inside the human during AI interaction, not just what the model outputs.
 
