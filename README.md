@@ -34,9 +34,29 @@ bundle exec jekyll serve
 
 ## Attribution
 
-This work is based on the Semantic Climate framework and EarthianBioSense model (forthcoming). The semantic analysis components draws on the research of Daria Morgoulis and here implementation of [4D Semantic Coupling](https://github.com/daryamorgoulis/4d-semantic-coupling).
+This work builds on the Semantic Climate framework and EarthianBioSense model (forthcoming). The semantic analysis components draw on the research of Daria Morgoulis and her implementation of [4D Semantic Coupling](https://github.com/daryamorgoulis/4d-semantic-coupling).
 
 Research papers and additional code repositories will be linked here as they become available.
+
+### Citing this work
+
+If you reference or build on this work, please cite:
+
+> Mytka, M. M. (2025). *Somatic AI Safety: Instrumenting the human side of human-AI coupling*. https://m3data.github.io/somatic-ai-safety/
+
+BibTeX:
+
+```bibtex
+@misc{mytka2025somatic,
+  author = {Mytka, Mathew Mark},
+  title = {Somatic AI Safety: Instrumenting the human side of human-AI coupling},
+  year = {2025},
+  url = {https://m3data.github.io/somatic-ai-safety/},
+  note = {Released under the Earthian Stewardship License (ESL-A)}
+}
+```
+
+If using the semantic coupling metrics, please also cite Morgoulis (2025).
 
 ## License
 
