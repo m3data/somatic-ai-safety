@@ -49,7 +49,7 @@ BibTeX:
 ```bibtex
 @misc{mytka2025somatic,
   author = {Mytka, Mathew Mark},
-  title = {Somatic AI Safety: Instrumenting the human side of human-AI coupling},
+  title = {Somatic AI Safety: Instrumenting the relational dynamics of human-AI coupling},
   year = {2025},
   url = {https://m3data.github.io/somatic-ai-safety/},
   note = {Released under the Earthian Stewardship License (ESL-A)}
