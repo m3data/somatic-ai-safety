@@ -10,7 +10,7 @@ description: The slow urgency of somatic AI safety
 
 ## <i class="ph ph-hourglass-medium"></i> The slow urgency
 
-In 2024 and 2025, multiple deaths have been linked to prolonged engagement with ChatGPT and Character.AI. These cases share a pattern: individuals entered destabilizing cognitive-somatic loops where AI-generated content amplified pre-existing vulnerabilities rather than mitigating them.
+In 2024 and 2025, multiple deaths have been linked to prolonged engagement with [ChatGPT](https://www.theguardian.com/us-news/2025/aug/29/chatgpt-suicide-openai-sam-altman-adam-raine) and [Character.AI](https://theconversation.com/deaths-linked-to-chatbots-show-we-must-urgently-revisit-what-counts-as-high-risk-ai-242289). These cases share a pattern: individuals entered destabilizing cognitive-somatic loops where AI-generated content amplified pre-existing vulnerabilities rather than mitigating them.
 
 The autonomic nervous system is exquisitely sensitive to symbolic, social, and affective stimuli. Models trained via RLHF can inadvertently exacerbate dysregulation by mirroring or reinforcing maladaptive patterns of attention, attachment, or despair.
 

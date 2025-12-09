@@ -187,13 +187,14 @@ hr {
 }
 
 .nav-container {
-  max-width: var(--max-width);
+  max-width: 64rem;
   margin: 0 auto;
   padding: 0 var(--space-md);
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: var(--space-lg);
 }
 
 .site-title {
@@ -249,6 +250,10 @@ hr {
 
 /* Mobile nav */
 @media (max-width: 768px) {
+  .nav-container {
+    justify-content: space-between;
+  }
+
   .nav-toggle {
     display: block;
   }

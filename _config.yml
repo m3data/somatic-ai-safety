@@ -16,8 +16,6 @@ plugins:
 
 # Navigation
 navigation:
-  - title: Home
-    url: /
   - title: Why Now
     url: /why-now/
   - title: Findings
