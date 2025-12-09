@@ -1,0 +1,50 @@
+title: Somatic AI Safety
+description: Instrumenting the relational dynamics of human-AI coupling for safer interactions.
+author: Mathew Mark Mytka
+language: en
+url: "https://m3data.github.io/somatic-ai-safety"
+baseurl: "/somatic-ai-safety"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Theme - using minimal base with custom styling
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Why Now
+    url: /why-now/
+  - title: Findings
+    url: /finding/
+  - title: Framework
+    url: /framework/
+  - title: Limitations
+    url: /limitations/
+  - title: Collaborate
+    url: /collaborate/
+
+# Author
+author:
+  name: Mathew Mark Mytka
+  website: https://moralimagineer.com
+  linkedin: https://linkedin.com/in/mathewmytka
+  github: https://github.com/m3data
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
