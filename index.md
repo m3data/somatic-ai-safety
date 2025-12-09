@@ -5,7 +5,7 @@ title: Home
 
 <div class="hero">
   <h1>Somatic AI Safety</h1>
-  <p class="tagline">Instrumenting the human side of human-AI coupling</p>
+  <p class="tagline">Instrumenting the relational dynamics of human-AI coupling</p>
 </div>
 
 ## <i class="ph ph-eye-closed"></i> The blind spot

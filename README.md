@@ -42,7 +42,7 @@ Research papers and additional code repositories will be linked here as they bec
 
 If you reference or build on this work, please cite:
 
-> Mytka, M. M. (2025). *Somatic AI Safety: Instrumenting the human side of human-AI coupling*. https://m3data.github.io/somatic-ai-safety/
+> Mytka, M. M. (2025). *Somatic AI Safety: Instrumenting the relational dynamics of human-AI coupling*. https://m3data.github.io/somatic-ai-safety/
 
 BibTeX:
 
