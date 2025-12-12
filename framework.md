@@ -105,18 +105,12 @@ Current AI safety is open-loop: instrument the model, hope it helps the human.
 
 We're working toward closing that loop:
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                                                         │
-│    Model Output  ──────────────►  Human Response        │
-│         ▲                              │                │
-│         │                              ▼                │
-│    Safety Layer  ◄──────────────  Coupling Signal       │
-│    (adapt, flag,                  (semantic +           │
-│     intervene)                    physiological)        │
-│                                                         │
-└─────────────────────────────────────────────────────────┘
-```
+{% include image.html
+  src="/assets/SAIS-loop.png"
+  alt="Closed-loop safety diagram showing model output, human response, and coupling signal feeding a safety layer"
+  caption="Closing the loop: model output, human response, coupling signal, and a responsive safety layer."
+  width="680px"
+%}
 
 The human side of the coupling becomes visible. Safety systems can respond to what they can now see.
 

@@ -31,8 +31,6 @@ Human-AI coupling is not merely a cognitive phenomenon. It's semantic, somatic a
 
 **AI safety cannot succeed if it treats meaning-making as disembodied.**
 
----
-
 ## <i class="ph ph-compass"></i> Navigate this brief
 
 <div class="page-nav">
@@ -62,8 +60,6 @@ Human-AI coupling is not merely a cognitive phenomenon. It's semantic, somatic a
     <p>How safety researchers, ethicists, and labs can engage</p>
   </a>
 </div>
-
----
 
 ## <i class="ph ph-target"></i> The core claim
 

@@ -69,9 +69,6 @@ A 28-turn dialogue exploring ecology of mind, epistemology, and indigenous knowl
   Place-based acknowledgments may mark semantic anchoring rather than create it. The grounding comes from the conversational work that precedes the acknowledgment.
 </div>
 
-This is consistent with indigenous epistemologies themselves—Country isn't something you invoke to *create* grounding; it's something you acknowledge once you've *arrived* at a grounded place through relational work.
-
----
 
 ## <i class="ph ph-gear"></i> The mechanism: epistemic override
 
@@ -93,8 +90,6 @@ This doesn't require the model to be accurate—only attuned. Stylistic mirrorin
 <strong>For users without strong epistemic anchors, the cognitive system may defer to the model's false certainty.</strong>
 </div>
 
----
-
 ## <i class="ph ph-warning"></i> Why this matters
 
 The Grunch session involved a researcher with:
@@ -113,8 +108,6 @@ Now consider:
 - Anyone encountering confident misinformation in their area of uncertainty
 
 The same mechanism—stylistic attunement creating a relational field, confident assertion triggering somatic response—operates without the protective factors.
-
----
 
 ## <i class="ph ph-eye"></i> What the body knew
 

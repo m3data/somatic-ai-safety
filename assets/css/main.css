@@ -423,6 +423,31 @@ pre code {
 }
 
 /* ==========================================================================
+   Figures
+   ========================================================================== */
+
+.figure {
+  margin: var(--space-lg) 0;
+  text-align: center;
+}
+
+.figure img {
+  max-width: 100%;
+  width: min(100%, 640px);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background: var(--color-bg-warm);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.figure-caption {
+  margin-top: var(--space-xs);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* ==========================================================================
    Page-specific: Home
    ========================================================================== */
 
