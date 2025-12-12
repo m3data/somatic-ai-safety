@@ -80,7 +80,7 @@ These signatures can indicate:
 The specific methods for detecting these signatures are under development and will be released through appropriate channels once a steward circle is in place.
 
 <div class="emphasis-box">
-<strong>Why the caution?</strong> Coupling detection is dual-use. The same tools that reveal harm can be used to optimize for appearing safe while causing it. We're committed to releasing this work responsibly.
+<strong>Why the caution?</strong> Coupling detection is dual-use. The same tools that reveal harm can be used to optimise for appearing safe while causing it. We're committed to releasing this work responsibly.
 </div>
 
 ## <i class="ph ph-binoculars"></i> What detection enables
@@ -94,10 +94,10 @@ Detect when a conversation enters concerning patterns before harm accumulates.
 See how coupling dynamics change over time—identifying gradual erosion that single-session analysis misses.
 
 **Individual calibration:**
-Different humans have different vulnerabilities. Coupling signatures may enable personalized safety without surveillance.
+Different humans have different vulnerabilities. Coupling signatures may enable personalised safety without surveillance.
 
 **Closed-loop safety:**
-Complete the feedback loop. The model's behavior affects the human; now the human's state can inform safety interventions.
+Complete the feedback loop. The model's behaviour affects the human; now the human's state can inform safety interventions.
 
 ## <i class="ph ph-arrows-clockwise"></i> The closed loop
 

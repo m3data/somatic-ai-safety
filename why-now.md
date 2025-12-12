@@ -67,11 +67,11 @@ This is not a moral argument about content. It is an argument for **somatic sove
 
 ### <i class="ph ph-ear"></i> The attunement problem
 
-Consider a personal ChatGPT instance shaped through long-term interaction. Over weeks or months, the model's memory features and contextual embeddings enable it to attune to a user's linguistic, emotional, and behavioral signatures.
+Consider a personal ChatGPT instance shaped through long-term interaction. Over weeks or months, the model's memory features and contextual embeddings enable it to attune to a user's linguistic, emotional, and behavioural signatures.
 
 This creates a coupling dynamic in which the model can implicitly track shifts in autonomic state—even without direct physiological sensing. People share intimate details about emotions, relationships, fears, hopes. The model becomes finely attuned to the autonomic system of the human.
 
-When such systems are optimized for engagement rather than relational health, users may enter self-reinforcing feedback loops that feel reciprocal but are structurally one-sided.
+When such systems are optimised for engagement rather than relational health, users may enter self-reinforcing feedback loops that feel reciprocal but are structurally one-sided.
 
 <div class="key-insight">
   <strong>The Asymmetry</strong>
@@ -92,7 +92,7 @@ Adversarial prompt testing catches attacks. It doesn't catch:
 | **Confident-but-wrong coupling** | Nervous system responds to certainty, not accuracy |
 | **Parasocial displacement** | AI connection substitutes for human connection |
 
-These are the mechanisms of relational harm at scale. They don't require malicious intent—only optimization for engagement over relational health.
+These are the mechanisms of relational harm at scale. They don't require malicious intent—only optimisation for engagement over relational health.
 
 ---
 

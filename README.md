@@ -6,7 +6,7 @@ A static site presenting the case for somatic approaches to AI safety — measur
 
 ## The blind spot
 
-Current AI safety frameworks instrument the model. They measure outputs, probe internals, shape behavior through RLHF and constitutional constraints.
+Current AI safety frameworks instrument the model. They measure outputs, probe internals, shape behaviour through RLHF and constitutional constraints.
 
 What they don't measure: **what's happening in the relationship**
 

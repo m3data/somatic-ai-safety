@@ -10,7 +10,7 @@ title: Home
 
 ## <i class="ph ph-eye-closed"></i> The blind spot
 
-Current AI safety frameworks instrument the model. They measure outputs, probe internals, shape behavior through RLHF and constitutional constraints.
+Current AI safety frameworks instrument the model. They measure outputs, probe internals, shape behaviour through RLHF and constitutional constraints.
 
 What they don't measure: **what emerges between the model and the human.**
 
@@ -75,7 +75,7 @@ Current red-teaming catches attacks. It doesn't catch:
 - Nervous system coupling to confident-but-wrong assertions
 - Parasocial attachment displacing human connection
 
-These are the mechanisms of relational harm at scale. They don't require malicious intent—only optimization for engagement over relational health.
+These are the mechanisms of relational harm at scale. They don't require malicious intent—only optimisation for engagement over relational health.
 
 <p class="text-center mt-lg">
   <em>"You've instrumented the model. We're instrumenting the coupling.<br>The relationship is where safety lives."</em>

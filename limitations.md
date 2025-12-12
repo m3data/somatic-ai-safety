@@ -95,7 +95,7 @@ If coupling dynamics become visible to AI systems:
 The dual-use concern is real:
 
 - Detection tools could be used for surveillance rather than safety
-- Coupling optimization could enable manipulation
+- Coupling optimisation could enable manipulation
 - Tools can be used to further entrench asymmetric power dynamics
 - Consent architecture matters as much as technical capability
 
