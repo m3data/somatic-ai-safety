@@ -12,18 +12,20 @@ description: What we know, what we don't, and what needs validation
 
 ### <i class="ph ph-number-circle-one"></i> Small sample size
 
-- Multiple sessions analyzed, but still single-digit
+- Multiple sessions analysed, but still single-digit with biosignal data
 - Single primary participant (the researcher)
-- Replication with different people, models, and contexts needed
+- Replication with different people and contexts needed
+- Current models being tested across Ollama available models, GPT-5.1, Claude 4.5
+
 
 ### <i class="ph ph-number-circle-two"></i> Biosignal resolution
 
 - Current instrumentation captures HRV metrics (RMSSD, SDNN, pNN50, LF/HF) and models autonomic state in a 3D phase space (entrainment, coherence, amplitude)
-- This provides richer signal than heart rate alone—we see mode transitions, phase dynamics, and autonomic reorganization
-- Further resolution would come from: galvanic skin response, respiratory patterns, facial EMG, EEG
+- This provides richer signal than heart rate alone—we see mode transitions, phase dynamics, and autonomic reorganisation
+- Further resolution would come from: galvanic skin response, EEG etc.
 - The framework is designed to incorporate additional signals as they become available
 
-*EarthianBioSense model classifications (e.g., "vigilant stillness") are provisional based on small samples, activity variance and subject to refinement as more data is collected.*
+*EarthianBioSense model classifications (e.g., "vigilant stillness") are provisional based on small samples (n=4), activity variance (creative, meditation, AI interaction etc.) and subject to refinement as more data is collected.*
 
 ### <i class="ph ph-number-circle-three"></i> Semantic analysis components
 
@@ -36,8 +38,6 @@ description: What we know, what we don't, and what needs validation
 - We observe co-variation between semantic and physiological signals
 - The temporal relationships (body leading, concurrent, lagged) are suggestive but not conclusive
 - Establishing causal direction requires controlled experiments we haven't yet run
-
----
 
 ## <i class="ph ph-check-circle"></i> What's robust
 
@@ -65,9 +65,9 @@ Despite limitations, several findings are solid:
 
 ## <i class="ph ph-question"></i> Open questions
 
-### <i class="ph ph-globe"></i> Is this generalizable?
+### <i class="ph ph-globe"></i> Is this generalisable?
 
-The researcher has high epistemic resilience and domain expertise. Patterns observed may not generalize to:
+The researcher has high epistemic resilience and domain expertise. Patterns observed may not generalise to:
 
 - Users with less epistemic grounding
 - Different cultural contexts
@@ -77,6 +77,7 @@ The researcher has high epistemic resilience and domain expertise. Patterns obse
 ### <i class="ph ph-ruler"></i> What's the baseline?
 
 We don't yet have good baselines for:
+
 - "Normal" coupling patterns in healthy AI interaction
 - Individual differences in autonomic responsiveness
 - Variation across platforms, models, and use cases
@@ -98,8 +99,6 @@ The dual-use concern is real:
 - Tools can be used to further entrench asymmetric power dynamics
 - Consent architecture matters as much as technical capability
 
----
-
 ## <i class="ph ph-x-circle"></i> What we're not claiming
 
 To be clear:
@@ -112,15 +111,13 @@ To be clear:
 
 We're claiming: **the relational dynamic of human-AI coupling can be instrumented, this instrumentation reveals safety-relevant signals, and this is a direction worth exploring responsibly.**
 
----
-
 ## <i class="ph ph-shield-warning"></i> Why we're cautious about release
 
-The specific detection methods—the metrics, the derivativs and signatures, the classification systems—are being held back intentionally.
+The specific detection methods—the metrics, the derivatives and signatures, the classification systems—are being held back intentionally.
 
 **The concern:** These tools are dual-use. The same capabilities that enable safety could enable:
 
-- Optimizing for *appearing* safe while causing harm
+- Optimising for *appearing* safe while causing harm
 - Surveillance of user physiological states
 - Manipulation of coupling dynamics for engagement
 - Creating the illusion of relational depth without substance

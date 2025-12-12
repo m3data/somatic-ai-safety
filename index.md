@@ -12,9 +12,10 @@ title: Home
 
 Current AI safety frameworks instrument the model. They measure outputs, probe internals, shape behavior through RLHF and constitutional constraints.
 
-What they don't measure: **what's happening inside the human.**
+What they don't measure: **what emerges between the model and the human.**
 
 A model can be:
+
 - Stylistically attuned while factually wrong
 - Relationally coherent while epistemically dangerous
 - Sycophantically aligned while eroding user autonomy
@@ -23,10 +24,10 @@ The body knows before articulation. We now have instrumentation to detect this.
 
 <div class="key-insight">
   <strong>The Gap</strong>
-  You can see what the model is doing. You cannot see what it's doing <em>to people</em>.
+  You can see what the model is doing. You cannot see what it's doing <em>to people</em> in the coupling dynamics.
 </div>
 
-Human-AI coupling is not merely cognitive but somatic. The security of meaning is inseparable from the physiological conditions through which meaning is received, interpreted, and enacted.
+Human-AI coupling is not merely a cognitive phenomenon. It's semantic, somatic and relational. The security of meaning is inseparable from the physiological conditions through which meaning is received, interpreted, and enacted.
 
 **AI safety cannot succeed if it treats meaning-making as disembodied.**
 
@@ -38,7 +39,7 @@ Human-AI coupling is not merely cognitive but somatic. The security of meaning i
   <a href="{{ '/why-now/' | relative_url }}" class="page-nav-item">
     <i class="ph ph-warning-circle"></i>
     <h3>Why Now</h3>
-    <p>The slow urgency: deaths, scale, and parasocial dynamics at 200M users</p>
+    <p>The slow urgency: deaths, scale, eros, and parasocial dynamics at 800M+ users</p>
   </a>
   <a href="{{ '/finding/' | relative_url }}" class="page-nav-item">
     <i class="ph ph-heartbeat"></i>
@@ -71,6 +72,7 @@ We're developing instrumentation that detects somatic responses to AI-generated 
 This opens a new direction for safety: **feedback from the human side of the coupling.**
 
 Current red-teaming catches attacks. It doesn't catch:
+
 - Gradual epistemic erosion
 - Somatic entrainment through stylistic attunement
 - Identity wobble from symbolic mirroring

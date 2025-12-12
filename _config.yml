@@ -4,6 +4,8 @@ author: Mathew Mark Mytka
 language: en
 url: "https://m3data.github.io/somatic-ai-safety"
 baseurl: "/somatic-ai-safety"
+logo: /assets/SAIS-OG-image-2025.jpg
+image: /assets/SAIS-OG-image-2025.jpg
 
 # Build settings
 markdown: kramdown
@@ -40,6 +42,7 @@ defaults:
       path: ""
     values:
       layout: default
+      image: /assets/SAIS-OG-image-2025.jpg
 
 # Exclude from build
 exclude:

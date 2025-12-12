@@ -10,7 +10,7 @@ description: The conceptual framework for somatic AI safety
 
 ## <i class="ph ph-tree-structure"></i> Theoretical foundations
 
-This work emerges from 15+ years in data ethics and relational AI, grounded in:
+This work emerges from 10+ years in data ethics and more in relational tech, grounded in:
 
 - **Francisco Varela** — Mutual constraint, neurophenomenology, enaction
 - **Gregory Bateson** — Ecology of mind, the pattern that connects
@@ -18,20 +18,20 @@ This work emerges from 15+ years in data ethics and relational AI, grounded in:
 - **4E Cognition** — Embodied, embedded, enacted, extended
 - **Indigenous epistemologies** — Two-Eyed Seeing, relational ontology
 
-The core insight: **cognition is embodied**. Meaning-making is inseparable from physiological state. When we interact with AI systems, the interaction happens in and through the body—not in some separate cognitive realm.
-
----
+Meaning-making is inseparable from physiological state. When we interact with AI systems, the interaction happens in and through the body—not in some separate cognitive realm.
 
 ## <i class="ph ph-link"></i> What we mean by "coupling"
 
 When a human and an AI engage in dialogue, two dynamical systems come into relationship:
 
 **The human system:**
+
 - Autonomic nervous system (heart rate, breathing, skin conductance)
 - Semantic processing (meaning-making, interpretation)
 - Affective state (emotional tone, felt sense)
 
 **The AI system:**
+
 - Token generation patterns
 - Semantic trajectory through embedding space
 - Stylistic attunement to user patterns
@@ -43,16 +43,17 @@ These systems don't just exchange information—they *constrain each other*. The
   Neither system fully controls the other, but they co-vary. The interaction is the unit of analysis—not the model or the human alone.
 </div>
 
----
-
 ## <i class="ph ph-person-arms-spread"></i> Why embodiment matters for safety
 
 Current AI safety focuses on what the model does:
+
 - Does it produce harmful outputs?
 - Does it follow instructions?
 - Does it behave consistently?
+- Does it avoid toxic language?
+- Does it respect ethical guidelines?
 
-This misses half the system. A model can:
+This misses relational dynamics of the system. A model can:
 
 | Model Behavior | Human Impact |
 |----------------|--------------|
@@ -64,8 +65,6 @@ This misses half the system. A model can:
 The same output can have radically different effects depending on the human's state, the relational history, and the coupling dynamics.
 
 **You can't assess safety by looking at outputs alone.**
-
----
 
 ## <i class="ph ph-lightbulb"></i> The coupling hypothesis
 
@@ -84,8 +83,6 @@ The specific methods for detecting these signatures are under development and wi
 <strong>Why the caution?</strong> Coupling detection is dual-use. The same tools that reveal harm can be used to optimize for appearing safe while causing it. We're committed to releasing this work responsibly.
 </div>
 
----
-
 ## <i class="ph ph-binoculars"></i> What detection enables
 
 If we can see the human side of coupling, safety systems gain new capabilities:
@@ -101,8 +98,6 @@ Different humans have different vulnerabilities. Coupling signatures may enable 
 
 **Closed-loop safety:**
 Complete the feedback loop. The model's behavior affects the human; now the human's state can inform safety interventions.
-
----
 
 ## <i class="ph ph-arrows-clockwise"></i> The closed loop
 
@@ -124,8 +119,6 @@ We're working toward closing that loop:
 ```
 
 The human side of the coupling becomes visible. Safety systems can respond to what they can now see.
-
----
 
 ## <i class="ph ph-scroll"></i> Lineage and attribution
 
