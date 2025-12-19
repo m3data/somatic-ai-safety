@@ -26,7 +26,7 @@ When a human and an AI engage in dialogue, two dynamical systems come into relat
 
 **The human system:**
 
-- Autonomic nervous system (heart rate, breathing, skin conductance)
+- Autonomic nervous system (heart rate, breathing patterns)
 - Semantic processing (meaning-making, interpretation)
 - Affective state (emotional tone, felt sense)
 

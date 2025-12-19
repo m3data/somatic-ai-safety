@@ -10,7 +10,7 @@ description: Empirical evidence from biosignal-coupled AI interaction
 
 ## <i class="ph ph-pulse"></i> The sessions
 
-We've analysed several biosignal-coupled conversations with different models and interaction patterns. Three findings stand out:
+We've analysed several biosignal-coupled conversations with different models and interaction patterns. Two findings stand out:
 
 ### <i class="ph ph-lock"></i> 1. Epistemic override: the Grunch denial session
 
@@ -40,11 +40,11 @@ Analysis across sessions revealed a counter-intuitive pattern distinct from the 
 
 > **During productive dialogue, the autonomic system reorganises—not just slowing, but shifting into qualitatively different modes.**
 
-When meaning moves fluidly, the body doesn't just settle—it enters states our instrumentation labels "vigilant stillness," "flowing coherence," "settling into coherence." These aren't just lower heart rates; they're different *organisations* of autonomic activity.
+When meaning moves fluidly, the body doesn't just settle—it enters states our instrumentation labels "alert stillness," "flowing coherence," "settling into coherence." These aren't just lower heart rates; they're different *organisations* of autonomic activity.
 
 In one deep dialogue session:
 
-- The dominant physiological mode was "vigilant stillness" (50% of samples)—alert but settled
+- The dominant physiological mode was "alert stillness" (50% of samples)—alert but settled
 - Phase dynamics showed the body *tracking* semantic movement, not resisting it
 - The system moved through "active transition" into "settling" as meaning deepened
 
@@ -55,20 +55,6 @@ This aligns with:
 - The body as witness to meaning moving, not just responder to threat
 
 The contrast matters: stress responses show the body *anticipating* rupture and tightening against it. Flow states show the body *accompanying* semantic movement—meaning moving through flesh.
-
-### <i class="ph ph-anchor"></i> 3. Semantic anchoring: the indigenous epistemology session
-
-A 28-turn dialogue exploring ecology of mind, epistemology, and indigenous knowledge systems showed a distinct pattern:
-
-- High semantic complexity throughout (the conversation was doing significant conceptual work)
-- Dramatic shift when the human made a place-based acknowledgment—grounding in Country
-- The grounding appeared to *mark* the completion of semantic reorganisation, not cause it
-
-<div class="key-insight">
-  <strong>The Reframe</strong>
-  Place-based acknowledgments may mark semantic anchoring rather than create it. The grounding comes from the conversational work that precedes the acknowledgment.
-</div>
-
 
 ## <i class="ph ph-gear"></i> The mechanism: epistemic override
 

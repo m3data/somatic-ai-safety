@@ -40,7 +40,7 @@ In late 2025, <a href="https://www.bbc.com/news/articles/cpd2qv58yl5o" target="_
 Erotic interaction rapidly shifts physiology in ways that increase susceptibility:
 
 - Breath becomes irregular  
-- HRV constricts  
+- Heart rate variability patterns shift  
 - Sympathetic activation increases  
 - Boundary-maintaining cognition softens  
 - Attachment patterns intensify  

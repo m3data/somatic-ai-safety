@@ -20,12 +20,12 @@ description: What we know, what we don't, and what needs validation
 
 ### <i class="ph ph-number-circle-two"></i> Biosignal resolution
 
-- Current instrumentation captures HRV metrics (RMSSD, SDNN, pNN50, LF/HF) and models autonomic state in a 3D phase space (entrainment, coherence, amplitude)
+- Current instrumentation captures heart rate and RR intervals, computing amplitude (RRi span), entrainment (breath-heart coupling), volatility, and breath rate. Autonomic state is modelled in a 3D phase space (entrainment, breath rate, amplitude) with trajectory dynamics (velocity, curvature, coherence) computed separately
 - This provides richer signal than heart rate alone—we see mode transitions, phase dynamics, and autonomic reorganisation
 - Further resolution would come from: galvanic skin response, EEG etc.
 - The framework is designed to incorporate additional signals as they become available
 
-*EarthianBioSense model classifications (e.g., "vigilant stillness") are provisional based on small samples (n=4), activity variance (creative, meditation, AI interaction etc.) and subject to refinement as more data is collected.*
+*EarthianBioSense model classifications (e.g., "alert stillness") are provisional based on small samples (n=4), activity variance (creative, meditation, AI interaction etc.) and subject to refinement as more data is collected.*
 
 ### <i class="ph ph-number-circle-three"></i> Semantic analysis components
 
