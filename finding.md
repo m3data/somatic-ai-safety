@@ -51,7 +51,7 @@ In one deep dialogue session:
 This aligns with:
 
 - Flow state phenomenology—effortless effort, calm intensity during deep engagement
-- Parasympathetic reorganisation (not just activation) in focused attention
+- Autonomic reorganisation (not just slowing) in focused attention
 - The body as witness to meaning moving, not just responder to threat
 
 The contrast matters: stress responses show the body *anticipating* rupture and tightening against it. Flow states show the body *accompanying* semantic movement—meaning moving through flesh.

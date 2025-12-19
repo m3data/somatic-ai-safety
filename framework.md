@@ -75,7 +75,7 @@ These signatures can indicate:
 - **Healthy resonance** — Bidirectional influence, settled physiology, productive exchange
 - **Stress response** — Elevated activation, semantic lock-in, relational rupture
 - **Epistemic erosion** — Model-dominant coupling, user deference, gradual capture
-- **Flow states** — Deep engagement, parasympathetic activation, "settling into depth"
+- **Flow states** — Deep engagement, autonomic settling, "settling into depth"
 
 The specific methods for detecting these signatures are under development and will be released through appropriate channels once a steward circle is in place.
 
