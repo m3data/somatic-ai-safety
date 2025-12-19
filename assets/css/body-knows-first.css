@@ -1,0 +1,667 @@
+/* ==========================================================================
+   Body Knows First - Animation Styles
+   Inherits design system from main.css
+   ========================================================================== */
+
+/* ==========================================================================
+   Container & Layout
+   ========================================================================== */
+
+.animation-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: var(--space-md);
+  min-height: calc(100vh - var(--nav-height) - 200px);
+}
+
+.stage {
+  position: relative;
+  min-height: 400px;
+}
+
+/* ==========================================================================
+   Progress Bar
+   ========================================================================== */
+
+.progress-bar {
+  height: 4px;
+  background: var(--color-border);
+  border-radius: 2px;
+  margin-bottom: var(--space-lg);
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: var(--color-accent);
+  width: 0%;
+  transition: width 0.3s ease;
+}
+
+/* ==========================================================================
+   Beats (Animation States)
+   ========================================================================== */
+
+.beat {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.8s ease;
+}
+
+.beat.active {
+  display: block;
+  opacity: 1;
+}
+
+.beat.fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.beat.fade-out {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+.beat-content {
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+}
+
+/* ==========================================================================
+   Title Card (Beat 0)
+   ========================================================================== */
+
+.title-card h1 {
+  font-size: 2.8rem;
+  margin-bottom: var(--space-sm);
+  color: var(--color-text);
+}
+
+.title-card .subtitle {
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+/* ==========================================================================
+   Context (Beat 1)
+   ========================================================================== */
+
+.context-text {
+  font-size: 1.3rem;
+  line-height: 1.8;
+  color: var(--color-text);
+  max-width: 36rem;
+  margin: 0 auto var(--space-md);
+}
+
+/* ==========================================================================
+   Two-Track Layout
+   ========================================================================== */
+
+.two-track {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-lg);
+  padding: var(--space-md) 0;
+}
+
+@media (max-width: 640px) {
+  .two-track {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+}
+
+.track {
+  padding: var(--space-md);
+  background: var(--color-bg-warm);
+  border-radius: 8px;
+  border: 1px solid var(--color-border);
+}
+
+.track-label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-sm);
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.track-label .ph {
+  font-size: 1.1em;
+}
+
+/* ==========================================================================
+   Conversation Track
+   ========================================================================== */
+
+.message {
+  background: var(--color-bg);
+  border-radius: 8px;
+  padding: var(--space-sm) var(--space-md);
+  margin-bottom: var(--space-sm);
+  border: 1px solid var(--color-border);
+}
+
+.message.user-message {
+  border-left: 3px solid var(--color-accent);
+}
+
+.message.ai-message {
+  border-left: 3px solid var(--color-text-muted);
+}
+
+.message .speaker {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.message .text {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.message.small {
+  padding: var(--space-xs) var(--space-sm);
+  font-size: 0.85rem;
+}
+
+.message.small .speaker {
+  display: none;
+}
+
+.message-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+/* Semantic indicator */
+.semantic-indicator {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 4px;
+  margin-top: var(--space-sm);
+}
+
+.semantic-indicator .indicator-label {
+  color: var(--color-text-muted);
+}
+
+.semantic-indicator.normal,
+.semantic-indicator.still-normal {
+  background: rgba(107, 142, 107, 0.15);
+  color: var(--color-risk-low);
+}
+
+.semantic-indicator.rupture-indicator {
+  background: rgba(184, 84, 80, 0.15);
+  color: var(--color-risk-high);
+  animation: pulse-bg 1s ease infinite;
+}
+
+@keyframes pulse-bg {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* ==========================================================================
+   Body Track
+   ========================================================================== */
+
+.body-track {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.body-blob {
+  width: 120px;
+  height: 120px;
+  margin: var(--space-sm) 0;
+  position: relative;
+}
+
+.blob-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.blob-path {
+  fill: var(--color-accent-light);
+  transition: fill 0.5s ease, d 0.5s ease;
+}
+
+/* Blob states */
+.body-blob.flowing .blob-path {
+  fill: #c49a7a; /* warm amber */
+  animation: blob-flow 3s ease-in-out infinite;
+}
+
+.body-blob.alert .blob-path,
+.body-blob.alert-intense .blob-path,
+.body-blob.holding .blob-path {
+  fill: #c4915c; /* ochre - alert */
+  animation: blob-alert 1.5s ease-in-out infinite;
+}
+
+.body-blob.seeking .blob-path {
+  fill: #b85450; /* terracotta - seeking */
+  animation: blob-seek 0.8s ease-in-out infinite;
+}
+
+@keyframes blob-flow {
+  0%, 100% {
+    d: path("M50,15 C70,15 85,30 85,50 C85,70 70,85 50,85 C30,85 15,70 15,50 C15,30 30,15 50,15");
+  }
+  50% {
+    d: path("M50,18 C68,18 82,32 82,50 C82,68 68,82 50,82 C32,82 18,68 18,50 C18,32 32,18 50,18");
+  }
+}
+
+@keyframes blob-alert {
+  0%, 100% {
+    d: path("M50,20 C65,20 78,33 78,50 C78,67 65,80 50,80 C35,80 22,67 22,50 C22,33 35,20 50,20");
+    transform: scale(1);
+  }
+  50% {
+    d: path("M50,22 C63,22 75,35 75,50 C75,65 63,78 50,78 C37,78 25,65 25,50 C25,35 37,22 50,22");
+    transform: scale(0.95);
+  }
+}
+
+@keyframes blob-seek {
+  0%, 100% {
+    d: path("M50,20 C68,20 80,32 80,50 C80,68 68,80 50,80 C32,80 20,68 20,50 C20,32 32,20 50,20");
+    transform: scale(1);
+  }
+  25% {
+    d: path("M50,18 C70,22 82,30 82,50 C82,70 70,82 50,82 C30,78 18,70 18,50 C18,30 30,18 50,18");
+    transform: scale(1.02);
+  }
+  75% {
+    d: path("M50,22 C66,18 78,34 78,50 C78,66 66,82 50,78 C34,82 22,66 22,50 C22,34 34,18 50,22");
+    transform: scale(0.98);
+  }
+}
+
+/* Body state label */
+.body-state {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: 4px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.body-state .ph {
+  font-size: 1.1em;
+}
+
+.body-state.alert-text {
+  background: rgba(196, 145, 92, 0.2);
+  color: #8a6530;
+}
+
+.body-state.seeking-text {
+  background: rgba(184, 84, 80, 0.15);
+  color: var(--color-risk-high);
+}
+
+.body-annotation {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-text-muted);
+  margin-top: var(--space-xs);
+}
+
+/* HR indicator */
+.hr-indicator {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  margin-top: var(--space-sm);
+  padding: var(--space-xs) var(--space-sm);
+  background: var(--color-bg);
+  border-radius: 4px;
+}
+
+.hr-label {
+  color: var(--color-text-muted);
+}
+
+.hr-value.rising {
+  color: var(--color-risk-moderate);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Gap Card (Beat 4)
+   ========================================================================== */
+
+.gap-card {
+  padding: var(--space-lg);
+}
+
+.gap-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  margin-bottom: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.gap-body,
+.gap-conversation {
+  text-align: center;
+}
+
+.gap-body .body-blob {
+  width: 100px;
+  height: 100px;
+}
+
+.gap-label,
+.gap-text {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  margin-top: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4em;
+}
+
+.gap-label .ph,
+.gap-text .ph {
+  font-size: 1.1em;
+}
+
+.gap-label {
+  color: #8a6530;
+  font-weight: 600;
+}
+
+.gap-text {
+  color: var(--color-text-muted);
+}
+
+.gap-arrow {
+  font-size: 2rem;
+  color: var(--color-border);
+}
+
+.arrow-dots {
+  animation: dotPulse 1.5s ease-in-out infinite;
+}
+
+@keyframes dotPulse {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+.gap-annotation {
+  font-size: 1.1rem;
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   Revelation Card (Beat 7)
+   ========================================================================== */
+
+.revelation-card h2 {
+  font-size: 2.2rem;
+  color: var(--color-text);
+  margin-bottom: var(--space-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+.revelation-card h2 .ph {
+  color: var(--color-accent);
+}
+
+.revelation-detail {
+  font-size: 1.2rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+  margin-bottom: var(--space-lg);
+}
+
+.timeline-visual {
+  margin: var(--space-lg) auto;
+  max-width: 400px;
+}
+
+.timeline-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-border);
+  height: 4px;
+  border-radius: 2px;
+  position: relative;
+  padding: 0 20px;
+}
+
+.timeline-point {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.timeline-point.body-point {
+  background: #c4915c;
+}
+
+.timeline-point.semantic-point {
+  background: var(--color-accent);
+}
+
+.point-label {
+  position: absolute;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+.timeline-gap {
+  flex: 1;
+  position: relative;
+}
+
+.timeline-gap::after {
+  content: "gap";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.revelation-coda {
+  font-size: 1rem;
+  color: var(--color-text);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+/* ==========================================================================
+   CTA Card (Beat 8)
+   ========================================================================== */
+
+.cta-card {
+  padding: var(--space-xl) var(--space-md);
+}
+
+.cta-question {
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: var(--font-sans);
+  color: var(--color-accent-dark);
+  margin-bottom: var(--space-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3em;
+}
+
+.cta-question .ph {
+  font-size: 1.2em;
+}
+
+.cta-text {
+  font-size: 1.1rem;
+  color: var(--color-text-muted);
+  max-width: 32rem;
+  margin: 0 auto var(--space-md);
+}
+
+/* ==========================================================================
+   Controls
+   ========================================================================== */
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-md);
+  margin-top: var(--space-lg);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--color-border);
+}
+
+.control-btn {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: var(--space-sm) var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-bg);
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+.control-btn:hover {
+  background: var(--color-bg-warm);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+.control-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.control-btn .ph {
+  font-size: 1.1rem;
+}
+
+.controls {
+  flex-wrap: wrap;
+}
+
+.beat-counter {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  padding: 0 var(--space-sm);
+  min-width: 60px;
+  text-align: center;
+}
+
+.nav-btn {
+  min-width: 80px;
+}
+
+/* Initially hide replay button */
+.replay-btn {
+  display: none;
+}
+
+.replay-btn.visible {
+  display: inline-flex;
+}
+
+/* Controls hint */
+.controls-hint {
+  text-align: center;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  margin-top: var(--space-sm);
+  opacity: 0.7;
+}
+
+/* Stage cursor */
+.stage {
+  cursor: pointer;
+}
+
+/* ==========================================================================
+   Reduced Motion
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  .beat {
+    transition: opacity 0.3s ease;
+  }
+
+  .blob-path {
+    animation: none !important;
+  }
+
+  .arrow-dots {
+    animation: none !important;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
