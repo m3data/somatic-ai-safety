@@ -5,3 +5,7 @@ _site/
 vendor/
 .bundle/
 Gemfile.lock
+
+# Claude Code
+CLAUDE.md
+claude-dev/
